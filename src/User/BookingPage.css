@@ -1,0 +1,185 @@
+/* BookingPage.css */
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-bottom: 20px;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    text-align: center;
+    flex: 1;
+}
+
+.input-group .btn {
+    width: 50px;
+}
+
+.btn-primary {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.navbar-brand .logo {
+    width: 50px;
+    height: auto;
+}
+
+#logoimg {
+    width: 50px;
+    height: auto;
+}
+
+#logoname {
+    margin-left: 10px;
+}
+
+#vicky {
+    margin-top: 10px;
+}
+
+#bookform .form-control,
+#bookform .form-select {
+    margin-bottom: 10px;
+}
+
+#bookform .input-group {
+    margin-bottom: 10px;
+}
+#bookform{
+    margin-top: -1rem;
+    margin-left: 0px;
+}
+#bookform1{
+    margin-top: -1rem;
+    margin-left: 0px;
+}
+
+#bookalign{
+    text-align: left;
+}
+
+#colid{
+    color: red;
+}
+
+#paymark{
+    margin-top: 5rem;
+    background-color: lightblue;
+    font-weight: bold;
+}
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 6px;
+  }
+  
+  .stepper-item.active {
+    font-weight: bold;
+  }
+  
+  .stepper-item.completed .step-counter {
+    background-color: darkblue;
+  }
+  
+  .stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid darkblue;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
+    content: none;
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }
+

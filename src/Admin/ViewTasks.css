@@ -1,0 +1,48 @@
+/* ViewTasks.css */
+
+#body {
+    padding: 20px;
+    background-color: gray;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-dark {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .table-dark th,
+  .table-dark td {
+    vertical-align: middle;
+  }
+  
+  .table thead th {
+    text-align: center;
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .btn-success i,
+  .btn-danger i {
+    margin-right: 5px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-link {
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+  }
+  

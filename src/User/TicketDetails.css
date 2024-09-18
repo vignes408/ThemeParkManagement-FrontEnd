@@ -1,0 +1,140 @@
+.ticket-details-container {
+    padding-top: 80px; /* Adjust for fixed navbar */
+}
+
+.ticket {
+    background-color: white; /* White background for the ticket */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Adjust max width as needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.ticket-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticket-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.qr-code-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.qr-code-image {
+    max-width: 150px; /* Adjust size as needed */
+}
+
+.ticket-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 6px;
+  }
+  
+  .stepper-item.active {
+    font-weight: bold;
+  }
+  
+  .stepper-item.completed .step-counter {
+    background-color: lightblue;
+  }
+  
+  .stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid lightblue;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
+    content: none;
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }

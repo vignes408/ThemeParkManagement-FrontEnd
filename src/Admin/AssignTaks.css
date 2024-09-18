@@ -1,0 +1,75 @@
+.container-fluid {
+  padding: 0;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.assign-task-form {
+  padding: 20px;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.form-control, .form-select {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding-left: 2.5rem;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+/* Icon Styles */
+.form-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.form-group {
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+#taskform{
+  margin-top: 10rem;
+}
+#headnav{
+  font-family: 'Times New Roman', Times, serif;
+}
